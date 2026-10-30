@@ -8,12 +8,20 @@
       "name": "Template package", 
       "author": "aeryli", 
       "description": "template description", 
-      "artifacts": [{
-        "url": "https://aeryli.github.io/repo/example_repository/packages/temp/artifacts/temp_1.0.0_kindleany.kpkg", 
-        "version": [1, 0, 0], 
-        "dependencies": [], 
-        "supported_platforms": null
-      }]
+      "artifacts": [
+        {
+          "url": "https://aeryli.github.io/repo/example_repository/packages/temp/artifacts/temp_1.0.0_kindleany.kpkg", 
+          "version": [1, 0, 0], 
+          "dependencies": [], 
+          "supported_platforms": null
+        },
+        {
+          "url": "https://aeryli.github.io/repo/example_repository/packages/temp/artifacts/temp_1.2.0_kindleany.kpkg", 
+          "version": [1, 2, 0], 
+          "dependencies": [], 
+          "supported_platforms": null
+        }
+      ]
     }
   }
 }
