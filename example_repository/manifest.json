@@ -1,1 +1,19 @@
-{"manifest_version": 2, "id": "templ", "name": "template repo", "description": "template repository", "packages": {"temp": {"name": "Template package", "author": "aeryli", "description": "template description", "artifacts": [{"url": "packages\\temp\\artifacts\\temp_1.0.0_kindleany.kpkg", "version": [1, 0, 0], "dependencies": [], "supported_platforms": null}]}}}
+{
+  "manifest_version": 2, 
+  "id": "templ", 
+  "name": "template repo", 
+  "description": "template repository", 
+  "packages": {
+    "temp": {
+      "name": "Template package", 
+      "author": "aeryli", 
+      "description": "template description", 
+      "artifacts": [{
+        "url": "https://aeryli.github.io/repo/example_repository/packages/temp/artifacts/temp_1.0.0_kindleany.kpkg", 
+        "version": [1, 0, 0], 
+        "dependencies": [], 
+        "supported_platforms": null
+      }]
+    }
+  }
+}
